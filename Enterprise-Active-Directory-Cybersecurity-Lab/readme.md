@@ -1,10 +1,11 @@
 # Enterprise Active Directory Cybersecurity Lab
 
 ## 📌 Overview
-This project demonstrates the creation of a virtual enterprise environment using VMware Workstation. The lab consists of a Windows Server 2022 Domain Controller and a Windows 11 client machine.
+This project demonstrates the creation of a simulated enterprise Active Directory environment using VMware Workstation.
 
-The objective is to simulate a real-world enterprise network to practice cybersecurity concepts including authentication, access control, network enumeration, and attack detection.
+The lab consists of a Windows Server 2022 Domain Controller and a Windows 11 client, designed to replicate real-world corporate infrastructure.
 
+This environment is used to practice both system administration and cybersecurity concepts, including authentication, access control, network enumeration, and attack simulation.
 ---
 
 ## 🎯 Objectives
