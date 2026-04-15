@@ -40,3 +40,6 @@ This lab simulates a realistic domain environment to understand how attackers in
 ---
 
 ## 🏗️ Lab Architecture
+Kali Linux (Attacker)
+Windows 11 Client Domain Controller (Windows Server 2022)
+Windows 11 (Client)
