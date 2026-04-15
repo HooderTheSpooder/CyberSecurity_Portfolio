@@ -1,3 +1,5 @@
+# Phase 1 - Infrastructure
+
 ### VM Creation
 
 - Created a virtual machine using VMware Workstation
