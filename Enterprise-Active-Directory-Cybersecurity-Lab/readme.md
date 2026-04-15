@@ -62,3 +62,13 @@ Windows 11 (Client)
 This project is currently in progress. The foundational infrastructure is being built, with Active Directory deployment and client integration underway.
 
 Security testing and monitoring features will be implemented in later phases.
+
+---
+
+## ⚔️ Planned Security Testing
+
+- Network enumeration using Nmap  
+- Password brute force attacks using Hydra  
+- Vulnerability scanning with Nessus  
+- Analysis of failed login attempts in Event Viewer  
+- SIEM integration for log monitoring  
