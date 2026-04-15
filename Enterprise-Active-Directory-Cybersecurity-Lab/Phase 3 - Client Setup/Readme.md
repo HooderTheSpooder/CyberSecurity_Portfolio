@@ -29,6 +29,9 @@ Install Windows 11 and join it to the `lab.local` domain.
 - Windows 11 required internet connection to continue
 - Lab uses Host-Only network (no internet by design)
 
+![stucknro Registry](../Screenshots/stuck.png)
+
+
 ### 6. Fix – Bypass Network Requirement
 - Pressed Shift + F10 to open command prompt
 - Typed `regedit` to open Registry Editor
@@ -38,6 +41,8 @@ Install Windows 11 and join it to the `lab.local` domain.
 - Clicked back arrow, then Next – "I don't have internet" button appeared
 - Created local account: `client1`
 
+![BypassedNRO](../Screenshots/W11HMPG.png)
+
 ### 7. Network Configuration (Static IP)
 - After reaching desktop, set static IP:
   - IP: `192.168.100.20`
@@ -45,8 +50,13 @@ Install Windows 11 and join it to the `lab.local` domain.
   - Gateway: (blank)
   - DNS: `192.168.100.10`
 
+![Static IP Config](../Screenshots/setupclient.png)
+
 ### 8. Issue – Could Not Contact Domain Controller
 - Error when trying to join `lab.local`
+
+![Problem](../Screenshots/problem2.5.png)
+![Problemagain](../Screenshots/problem2.png)
 
 ### 9. Fix – VMware Network Adapter Mismatch
 - Discovered Server was on NAT, Client on Host-Only
@@ -56,6 +66,8 @@ Install Windows 11 and join it to the `lab.local` domain.
 - Verified Server IP: `192.168.100.10`
 - Verified Client IP: `192.168.100.20`
 - Ping test successful
+
+![Fixedit](../Screenshots/fixed2.png)
 
 ### 10. Domain Join
 - Pressed Win+R, typed `sysdm.cpl`
@@ -78,13 +90,10 @@ Install Windows 11 and join it to the `lab.local` domain.
 ## Screenshots
 *(Add your screenshots here with proper paths)*
 
-![stucknro Registry](../Screenshots/stuck.png)
-![BypassedNRO](../Screenshots/W11HMPG.png)
-![Static IP Config](../Screenshots/setupclient.png)
+
+
 ![Domain Join Dialog](../Screenshots/joindomain.png)
-![Problem](../Screenshots/problem2.5.png)
-![Problemagain](../Screenshots/problem2.png)
-![Fixedit](../Screenshots/fixed2.png)
+
 ![Domain Join Dialog](../Screenshots/domainjoined.png)
 ![pingworking](../Screenshots/pingworking.png)
 ![Problemagain2](../Screenshots/problem3.png)
