@@ -43,3 +43,12 @@ This lab simulates a realistic domain environment to understand how attackers in
 Kali Linux (Attacker)
 Windows 11 Client Domain Controller (Windows Server 2022)
 Windows 11 (Client)
+---
+## 🧠 Key Skills Demonstrated/Will Be Demonstrated
+
+- Active Directory Domain Services (AD DS) deployment  
+- Domain controller configuration and management  
+- Network configuration (IP addressing, DNS)  
+- Windows system administration  
+- Troubleshooting virtual environments (EFI boot issues, ISO configuration)  
+- Cybersecurity lab development and attack simulation (planned)  
