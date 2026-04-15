@@ -53,4 +53,12 @@ Windows 11 (Client)
 - Network configuration (IP addressing, DNS)  
 - Windows system administration  
 - Troubleshooting virtual environments (EFI boot issues, ISO configuration)  
-- Cybersecurity lab development and attack simulation (planned)  
+- Cybersecurity lab development and attack simulation (planned)
+
+---
+
+  ## 🚧 Project Status
+
+This project is currently in progress. The foundational infrastructure is being built, with Active Directory deployment and client integration underway.
+
+Security testing and monitoring features will be implemented in later phases.
