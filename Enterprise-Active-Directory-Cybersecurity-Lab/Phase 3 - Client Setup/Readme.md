@@ -78,11 +78,19 @@ Install Windows 11 and join it to the `lab.local` domain.
 ## Screenshots
 *(Add your screenshots here with proper paths)*
 
-![EFI Boot Menu](../Screenshots/win11-efi-boot.png)
-![BypassNRO Registry](../Screenshots/bypassnro.png)
-![Static IP Config](../Screenshots/win11-static-ip.png)
-![Domain Join Dialog](../Screenshots/domain-join.png)
-![whoami Result](../Screenshots/whoami-lab.png)
+![stucknro Registry](../Screenshots/stuck.png)
+![BypassedNRO](../Screenshots/W11HMPG.png)
+![Static IP Config](../Screenshots/setupclient.png)
+![Domain Join Dialog](../Screenshots/joindomain.png)
+![Problem](../Screenshots/problem2.5.png)
+![Problemagain](../Screenshots/problem2.png)
+![Fixedit](../Screenshots/fixed2.png)
+![Domain Join Dialog](../Screenshots/domainjoined.png)
+![pingworking](../Screenshots/pingworking.png)
+![Problemagain2](../Screenshots/problem3.png)
+![Fixing it](../Screenshots/fixing.png)
+![Fixedit](../Screenshots/fixed3.png)
+
 
 ## Issues Encountered & Lessons Learned
 | Issue | Solution |
