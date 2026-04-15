@@ -76,6 +76,9 @@ Install Windows 11 and join it to the `lab.local` domain.
 - Credentials: `lab\Administrator`
 - Restarted when prompted
 
+![Domain Join Dialog](../Screenshots/joindomain.png)
+![Domain Join Dialog](../Screenshots/domainjoined.png)
+
 ### 11. Verification
 - Logged in as `lab\Administrator`
 - Opened Command Prompt
@@ -88,13 +91,7 @@ Install Windows 11 and join it to the `lab.local` domain.
 - Client can resolve domain controller via DNS
 
 ## Screenshots
-*(Add your screenshots here with proper paths)*
 
-
-
-![Domain Join Dialog](../Screenshots/joindomain.png)
-
-![Domain Join Dialog](../Screenshots/domainjoined.png)
 ![pingworking](../Screenshots/pingworking.png)
 ![Problemagain2](../Screenshots/problem3.png)
 ![Fixing it](../Screenshots/fixing.png)
