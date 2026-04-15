@@ -26,4 +26,4 @@
 - Windows Server 2022 installation started successfully
 - Server environment is now accessible via Server Manager
 
-https://github.com/HooderTheSpooder/CyberSecurity_Portfolio/blob/main/Enterprise-Active-Directory-Cybersecurity-Lab/Screenshots/01.png
+![VMwareWorkstation]https://github.com/HooderTheSpooder/CyberSecurity_Portfolio/blob/main/Enterprise-Active-Directory-Cybersecurity-Lab/Screenshots/01.png
