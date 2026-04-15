@@ -17,9 +17,13 @@ This environment is used to practice both system administration and cybersecurit
 - Analyse logs and system behaviour
 
 ---
+## 🌍 Real-World Relevance
 
+Active Directory is widely used in enterprise environments for identity and access management, making it a primary target for cyber attacks.
+
+This lab simulates a realistic domain environment to understand how attackers interact with enterprise systems and how defenders can detect and respond to threats.
 ## 🧰 Tools & Technologies
-
+---
 **Infrastructure:**
 - VMware Workstation  
 - Windows Server 2022  
