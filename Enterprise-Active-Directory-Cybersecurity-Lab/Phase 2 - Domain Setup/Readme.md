@@ -26,7 +26,9 @@ Configure Windows Server 2022 as a Domain Controller with Active Directory.
 ## Screenshots
 ![Promoting to DC](../Screenshots/Promotion.png)
 
+
 ![Installing AD](../Screenshots/ADinstall.png)
+
 
 ![Setup Done](../Screenshots/SuccessfulADInstall.png)
 
