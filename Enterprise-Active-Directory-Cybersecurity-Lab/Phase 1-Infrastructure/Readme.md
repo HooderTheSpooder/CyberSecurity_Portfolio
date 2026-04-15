@@ -26,4 +26,4 @@
 - Windows Server 2022 installation started successfully
 - Server environment is now accessible via Server Manager
 
-  ![Inside of WS2022-DC](CyberSecurity_Portfolio/Enterprise-Active-Directory-Cybersecurity-Lab/Screenshots/Inside_WS2022-DC_Server_Manager.png)
+![Server Manager](../screenshots/.png)
