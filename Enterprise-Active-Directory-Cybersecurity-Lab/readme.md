@@ -1,7 +1,37 @@
-After doing some research on a project I can undertake to help me gain some more experience and actually hear back from interviewers I have decided to undertake a Enterprise Active Directory cybersecurity Lab project.
-This will be using a mix of Vms on my host PC and is probably my most ambitious project yet.
-VMs: Kali Linux
-     Windows Server 2022
-     Windows 11
+# Enterprise Active Directory Cybersecurity Lab
 
-The aim will be to gain some actual hands on experience as an Security/Network Engineer. Will set up a virtual network and act as red team, blue team and the actual engineer and document what I will learn and do etc.
+## 📌 Overview
+This project demonstrates the creation of a virtual enterprise environment using VMware Workstation. The lab consists of a Windows Server 2022 Domain Controller and a Windows 11 client machine.
+
+The objective is to simulate a real-world enterprise network to practice cybersecurity concepts including authentication, access control, network enumeration, and attack detection.
+
+---
+
+## 🎯 Objectives
+- Build a virtual enterprise network using VMware
+- Configure Windows Server 2022 as a Domain Controller
+- Deploy Active Directory Domain Services (AD DS)
+- Join a Windows 11 client to the domain
+- Simulate cyber attacks using security tools
+- Analyse logs and system behaviour
+
+---
+
+## 🧰 Tools & Technologies
+
+**Infrastructure:**
+- VMware Workstation  
+- Windows Server 2022  
+- Windows 11  
+
+**Security Tools:**
+- Nmap  
+- Hydra  
+- Nessus  
+
+**Planned Additions:**
+- Splunk / Wazuh (SIEM)
+
+---
+
+## 🏗️ Lab Architecture
