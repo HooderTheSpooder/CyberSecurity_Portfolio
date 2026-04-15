@@ -26,4 +26,4 @@
 - Windows Server 2022 installation started successfully
 - Server environment is now accessible via Server Manager
 
-![Server Manager](../screenshots/![Server Manager](../screenshots/server-manager.png)
+![Server Manager](../screenshots/server-manager.png)
