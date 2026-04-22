@@ -58,6 +58,7 @@ Here are a few highlights of my most significant work. Click through to see the 
 - **Detection Engineering:** Writing custom Sigma rules for attacks I simulate (e.g., brute-force, privilege escalation).
 - **Cloud Security:** Building a small lab in AWS free tier to learn IAM and S3 security best practices.
 - **Simulating Attacks on my AD Lab** Using Kali Linux to attack my own AD Lab and the Live Domain.
+- **Finishing the AD Lab** Finishing off the AD Lab with some penetration testing as well as hardening afterwards.
 ---
 
 ## 📫 Let's Connect
