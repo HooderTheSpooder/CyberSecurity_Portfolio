@@ -57,7 +57,7 @@ Here are a few highlights of my most significant work. Click through to see the 
 - **SIEM Integration:** Adding Splunk or Wazuh to my AD lab for centralized logging and alerting.
 - **Detection Engineering:** Writing custom Sigma rules for attacks I simulate (e.g., brute-force, privilege escalation).
 - **Cloud Security:** Building a small lab in AWS free tier to learn IAM and S3 security best practices.
-
+- **Simulating Attacks on my AD Lab** Using Kali Linux to attack my own AD Lab and the Live Domain.
 ---
 
 ## 📫 Let's Connect
