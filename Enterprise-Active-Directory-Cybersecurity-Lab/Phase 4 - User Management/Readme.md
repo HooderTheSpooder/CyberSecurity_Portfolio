@@ -10,10 +10,18 @@ Create standard domain users in Active Directory and verify they can log into th
 - Navigated to `lab.local` → **Users**
 - Created two new users:
 
+  ### Creating a user in ADUC
+![AD Users and computers](../Screenshots/ADUC.png)
+
+
 | Username | Full Name | Password |
 |----------|-----------|----------|
-| `jdoe`   | Jane Doe  | `P@ssw0rd123` |
+| `jdoe`   | Jane Doe  | `Donkey123` |
 | `jsmith` | John Smith| `P@ssw0rd123` |
+
+### Creating a user in ADUC
+![Creating user](../Screenshots/newuser.png)
+![New users created](../Screenshots/Jfamily.png)
 
 - **Note:** Initially the account was disabled by mistake; fixed by enabling it in ADUC.
 
@@ -27,23 +35,11 @@ Create standard domain users in Active Directory and verify they can log into th
 - Opened Command Prompt
 - Ran `whoami` → output: `lab\jdoe`
 
+![whoami output](../Screenshots/whoami.png)
+
 ## Outcome
 - Domain users can successfully authenticate to the domain-joined Windows 11 client
 - Standard users have no administrative privileges (by default)
-
-## Screenshots
-
-### Creating a user in ADUC
-![Creating jdoe user](../Screenshots/aduc-create-user.png)
-
-### Users folder showing jdoe and jsmith
-![Users in ADUC](../Screenshots/aduc-users-list.png)
-
-### Successful login as jdoe on Windows 11
-![Login screen with lab\jdoe](../Screenshots/win11-login-jdoe.png)
-
-### whoami verification
-![whoami showing lab\jdoe](../Screenshots/whoami-jdoe.png)
 
 ## Issues Encountered
 
@@ -60,4 +56,4 @@ Create standard domain users in Active Directory and verify they can log into th
 ## Lessons Learned
 - New AD user accounts can be created as disabled by default if the checkbox is missed during creation
 - Always verify account status before attempting login
-- Domain login requires either `DOMAIN\username` or `username@domain.local` format
+- Domain login requires either `DOMAIN\username` or `username@domain.local` format unless the domain is already recognised.
