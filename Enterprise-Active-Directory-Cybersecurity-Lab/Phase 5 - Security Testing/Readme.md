@@ -1,4 +1,3 @@
-rkdown
 # Phase 5 – Security Testing (Red vs. Blue)
 
 ## Objective
@@ -11,7 +10,7 @@ Simulate a real-world password spray attack against the domain-joined Windows 11
 ### 1. Network Reconnaissance (Nmap)
 Discovered live hosts on the `192.168.100.0/24` network:
 
-```bash
+
 sudo nmap -sn 192.168.100.0/24
 Result:
 
@@ -26,14 +25,14 @@ https://../Screenshots/nmap-scan.png
 2. User Enumeration (enum4linux)
 Attempted to enumerate domain users without credentials:
 
-bash
+
 enum4linux -U 192.168.100.10
 Result: Limited results due to restricted null sessions (good security control). However, we knew valid usernames: jdoe, jsmith.
 
 3. Password Spray Attack (Hydra)
 Tried a single common password (P@ssw0rd123) against multiple users via RDP:
 
-bash
+
 hydra -L users.txt -p "P@ssw0rd123" rdp://192.168.100.20 -t 1
 Result: Hydra reported the password as valid for jdoe, but RDP access was denied (user not in Remote Desktop Users group).
 
@@ -116,17 +115,4 @@ Phase 3 – Client Setup
 
 Phase 4 – User Management
 
-text
-
----
-
-## ✅ Next steps
-
-1. **Create the folder** `Phase 5 - Security Testing/` in your repo (if not already there)
-2. **Create a new file** called `Readme.md` inside that folder
-3. **Paste** the entire block above into the file
-4. **Commit** the file
-5. **Upload your screenshots** (nmap-scan.png, event-4776.png, event-4625.png, event-4740.png, gpo-lockout-policy.png, hydra-valid.png) into your `Screenshots/` folder
-
-Then reply **"Phase 5 documented"** and your project is complete – portfolio ready.
 
