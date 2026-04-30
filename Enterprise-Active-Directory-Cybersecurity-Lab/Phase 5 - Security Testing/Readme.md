@@ -20,7 +20,7 @@ Result:
 
 192.168.100.30 – Kali Linux (attacker)
 
-https://../Screenshots/nmap-scan.png
+![Nmap]../nmap.png
 
 2. User Enumeration (enum4linux)
 Attempted to enumerate domain users without credentials:
