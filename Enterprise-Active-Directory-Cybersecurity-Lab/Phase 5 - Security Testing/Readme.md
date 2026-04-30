@@ -20,7 +20,7 @@ Result:
 
 192.168.100.30 – Kali Linux (attacker)
 
-![Nmap](../screenshots/nmap.png)
+![Nmap](../Screenshots/nmap.png)
 
 2. User Enumeration (enum4linux)
 Attempted to enumerate domain users without credentials:
@@ -30,8 +30,8 @@ enum4linux -U 192.168.100.10
 
 Result: Limited results due to restricted null sessions (good security control). However, we knew valid usernames: jdoe, jsmith.
 
-![enumeration](../screenshots/enum.png)
-![Enumeration again](../enum2.png)
+![enumeration](../Screenshots/enum.png)
+![Enumeration again](../Screenshots/enum2.png)
 
 
 3. Password Spray Attack (Hydra)
@@ -42,7 +42,7 @@ hydra -L users.txt -p "P@ssw0rd123" rdp://192.168.100.20 -t 1
 
 Result: Hydra reported the password as valid for jdoe, but RDP access was denied (user not in Remote Desktop Users group).
 
-![Hydra](../screenshots/imin.png)
+![Hydra](../Screenshots/imin.png)
 
 🔵 Blue Team – Detection
 Event 4776 – Credential Validation
@@ -58,13 +58,13 @@ Workstation: kali (IP 192.168.100.30)
 
 This confirms the attacker successfully validated a valid domain credential.
 
-![log](../screenshots/log.png)
-![log2](../screenshots/log2.png)
+![log](../Screenshots/log.png)
+![log2](../Screenshots/log2.png)
 
 Event 4740 – Account Lockout
 After applying the lockout policy, the account locked after 5 bad attempts.
 
-![Lockout](../screenshots/success.png)
+![Lockout](../Screenshots/success.png)
 
 🛡️ Engineering – Hardening
 Applied Account Lockout Policy (Group Policy)
@@ -75,7 +75,7 @@ Account lockout duration	30 minutes
 Account lockout threshold	5 invalid attempts
 Reset account lockout counter after	30 minutes
 
-![Grouppolicy](../screenshots/gpolicy3.png)
+![Grouppolicy](../Screenshots/gpolicy3.png)
 
 Verification
 Manual RDP test from Windows Server to Windows 11 client:
