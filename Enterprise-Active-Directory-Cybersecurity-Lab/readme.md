@@ -53,22 +53,18 @@ Windows 11 (Client)
 - Network configuration (IP addressing, DNS)  
 - Windows system administration  
 - Troubleshooting virtual environments (EFI boot issues, ISO configuration)  
-- Cybersecurity lab development and attack simulation (planned)
+- Cybersecurity lab development and attack simulation
+- SIEM Integration and log aggregration
 
 ---
 
   ## 🚧 Project Status
 
-This project is currently in progress. The foundational infrastructure is being built, with Active Directory deployment and client integration underway.
-
-Security testing and monitoring features will be implemented in later phases.
+Currently the foundations have been built and the infrastructure is there. The security testing and a bit of hardening has been done.
+Now moving onto SIEM integration and log aggregation
 
 ---
 
 ## ⚔️ Planned Security Testing
-
-- Network enumeration using Nmap  
-- Password brute force attacks using Hydra  
-- Vulnerability scanning with Nessus  
-- Analysis of failed login attempts in Event Viewer  
-- SIEM integration for log monitoring  
+- SIEM integration for log monitoring
+- 
