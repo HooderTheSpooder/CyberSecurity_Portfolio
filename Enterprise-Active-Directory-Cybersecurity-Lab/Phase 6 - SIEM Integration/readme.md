@@ -1,4 +1,4 @@
-# Siem Integration
+# SIEM Integration
 
 ## Objective 🎯
 
