@@ -25,6 +25,7 @@ Here are a few highlights of my most significant work. Click through to see the 
 
 | Project | Description | Tools & Focus |
 | :--- | :--- | :--- |
+| **[Hybrid SOC and Adversary Lab](https://github.com/HooderTheSpooder/CyberSecurity_Portfolio/blob/main/Hybrid_SOC_%26_Adversary_Sim_Lab/README.MD)** |WIP | WIP |
 | **[Enterprise Active Directory Lab](https://github.com/HooderTheSpooder/CyberSecurity_Portfolio/tree/main/Enterprise-Active-Directory-Cybersecurity-Lab)** | A complete corporate network simulation. I act as the **blue team, red team, and network engineer**—building the infrastructure, simulating attacks, and documenting detection strategies. | `Active Directory` `Windows Server` `Kali Linux` `Nmap` `Hydra` `Nessus` |
 | **[Live Domain Project](https://github.com/HooderTheSpooder/CyberSecurity_Portfolio/tree/main/Live_Domain_Project)** | Hands-on hardening and testing on a live domain. This project demonstrates my ability to apply security concepts in a real, uncontrolled environment. | `Live Environment` `Hardening` `Blue/Red Teaming` |
 | **[Email Security Audit Playbook](https://github.com/HooderTheSpooder/CyberSecurity_Portfolio/tree/main/Email_Security_Playbook)** | A professional, structured playbook for conducting email security audits. This shows my ability to translate security frameworks (NIST, CIS) into actionable documentation for a SOC. | `NIST` `CIS` `Auditing` `IT Documentation` |
