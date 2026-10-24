@@ -1,6 +1,6 @@
 # 🛡️ Haidar Butt | Cybersecurity Portfolio
 
-> Security+ certified | SOC Analyst in the making | Automation & Detection enthusiast
+> Security+ certified | Automation & Detection enthusiast
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haidar-butt-80032731b/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Hedee4782@gmail.com)
